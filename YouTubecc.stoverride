@@ -7,7 +7,7 @@ http:
 
   script:
     - match: ^https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
-      name: wps
+      name: YouTube翻译
       type: response
       require-body: true
       timeout: 10
