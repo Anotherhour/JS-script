@@ -1,4 +1,5 @@
-#!Name=Tik Tok_FR
+#!name=FR
+#!desc=FR
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) FR 307
