@@ -1,0 +1,19 @@
+
+#!name=解锁4k
+#!desc=bilibili解锁4k
+
+# >  /*  试试行不行吧
+# >  */试试行不行吧
+ 
+
+
+
+[MITM] 
+
+
+hostname = app.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net, ap?.bilibili.com, ap?.biliapi.net
+
+
+
+# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
+^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
