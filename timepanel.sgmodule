@@ -1,5 +1,5 @@
 #!name=时间面板
-#!name=自用时间面板
+#!desc=自用时间面板
 [Panel]
 # macOS不生效
 # > EDC_Surge-Panel
