@@ -1,3 +1,5 @@
+#!name=抖音_法国
+#!desc=解锁法国区域
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) FR 307
