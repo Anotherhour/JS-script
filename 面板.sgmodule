@@ -1,5 +1,5 @@
-#!name=Panle
-#!desc=collect by Miku
+#!name=面板
+#!desc=自用面板
 [Panel]
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
 timePanel = script-name=timePanel,update-interval=1
