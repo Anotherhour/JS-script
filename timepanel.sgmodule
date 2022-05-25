@@ -2,7 +2,7 @@
 #!desc=自用时间面板
 [Panel]
 # macOS不生效
-# > EDC_Surge-Panel
+# > timePanel
 # 显示运行时间及MitM等功能开关状态
 # 点击刷新为重载配置
 timePanel = script-name=timePanel,update-interval=1
