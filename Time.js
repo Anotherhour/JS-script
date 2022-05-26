@@ -36,7 +36,7 @@ if ($trigger == "button") {
 $done({
     title:"𝐒𝐮𝐫𝐠𝐞 𝐏𝐫𝐨",
     content: "北京时间："+ (new Date()).Format("yyyy-MM-dd HH:mm:ss")+"\n 
-              启动时长："+startTime + "\n -------------------- + "\n 仿佛穿过林子便是海 + "\n Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
+              启动时长："+startTime + "\n --------------------+" 仿佛穿过林子便是海+" Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"crown.fill":"exclamationmark.triangle",
    "icon-color":icon_s?"#EACD76":"#F20C00"
 });
