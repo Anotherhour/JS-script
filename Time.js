@@ -20,7 +20,7 @@ if ($trigger == "button") await httpAPI("/v1/profiles/reload");
   $done({
       title:"𝐒𝐮𝐫𝐠𝐞 𝐏𝐫𝐨 ",
       content:`仿佛穿过林子便是海\n`+
-          `北京时间:+ (new Date()).Format("yyyy-MM-dd HH:mm:ss")\n`+
+          "北京时间："+ (new Date()).Format("yyyy-MM-dd HH:mm:ss")+"\n
 	  `--------------\n`+
 	  `已持续运行: ${startTime}\n`+
 	  `MitM:`+icon_status(mitm_status.enabled)+`  Rewrite:`+icon_status(rewrite_status.enabled)+`  Scripting:`+icon_status(scripting_status.enabled),
