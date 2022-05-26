@@ -18,7 +18,7 @@ let scripting_status = (await httpAPI("/v1/features/scripting","GET"));
 if ($trigger == "button") await httpAPI("/v1/profiles/reload");
 
   $done({
-      title:"Surge pro  ",
+      title:"Surge pro ",
       content:`仿佛穿过林子便是海\n`+
 	  `--------------\n`+
 	  `已持续运行: ${startTime}\n`+
