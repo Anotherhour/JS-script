@@ -1,5 +1,5 @@
 name: b站解锁大会员画质
-desc: 番剧，影视不可用@Another_lio
+desc: 番剧，影视不可用
 
 http:
   mitm:
@@ -20,4 +20,4 @@ http:
       
 script-providers:
   bilibili.response:
-    url: https://raw.githubusercontent.com/Anotherhour/JS-script/main/B444k.js
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
