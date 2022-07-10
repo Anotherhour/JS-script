@@ -1,0 +1,24 @@
+name: b站解锁大会员画质
+desc: 番剧，影视不可用
+
+http:
+  mitm:
+    - 'app.bilibili.com'
+    - 'api.live.bilibili.com'
+    - 'api.vc.bilibili.com'
+    - 'api.bilibili.com'
+    - 'ap?.bilibili.com'
+    - 'ap?.biliapi.net'
+    - 'grpc.biliapi.net'
+    - 'manga.bilibili.com'
+  script:
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? 
+      name: bilibili.response
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  bilibili.response:
+    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
+    interval: 86400
