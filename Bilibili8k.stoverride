@@ -20,5 +20,4 @@ http:
       
 script-providers:
   bilibili.response:
-    url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
-    interval: 86400
+    url: https://raw.githubusercontent.com/Anotherhour/JS-script/main/B444k.js
