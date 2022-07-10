@@ -1,0 +1,11 @@
+name: 仿佛穿过林子便是海
+desc: 用于显示日期的面板 (Stash 2.0)
+
+tiles:
+  - name: MyCard-Tile
+    interval: 43200
+
+script-providers:
+  MyCard-Tile:
+    url: https://raw.githubusercontent.com/Anotherhour/JS-script/main/Time.js
+    interval: 86400
